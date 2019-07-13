@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/layoutbg_write"
+    tools:context=".Activity.WordremeberActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="单词速记"
+            android:textSize="20sp"
+            android:textColor="@color/txt2_black"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日复习"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:id="@+id/today_reviewTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/28"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日新词"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:id="@+id/today_newsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/20"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总词数"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:id="@+id/today_allsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/48"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="180dp"
+            >
+
+            <TextView
+                android:id="@+id/word_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="formidable"
+                android:textSize="22sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/play_pron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@mipmap/word_voice"
+            android:layout_marginRight="8dp"
+            />
+
+        <TextView
+            android:id="@+id/wordalp_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[fəˈmɪdəbl]"
+            android:textSize="16sp"
+            android:textColor="@color/txt2_black"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/example_sen_LinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="例句"
+            android:textSize="16sp"
+            android:textColor="@color/txt2_black"
+            />
+        <TextView
+            android:id="@+id/wordexa_sen_TV"
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Marsalis has a formidable reputation in both jazz and classical music."
+            android:textSize="16sp"
+            android:textColor="@color/txt2_black"
+            />
+
+        <TextView
+            android:id="@+id/wordexa_seninte_TV"
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="马萨利斯在爵士乐和古典音乐领域都有极高的声望。"
+            android:textSize="16sp"
+            android:textColor="@color/txt2_black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/wordremeberknowBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="我认识"
+            android:textColor="@color/txt_write"
+            android:background="@drawable/wordrememberbutton_bluestyle"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/wordremembertipbtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="提示一下"
+            android:textColor="@color/txt_black"
+            android:background="@drawable/wordrememberbutton_writestyle"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>

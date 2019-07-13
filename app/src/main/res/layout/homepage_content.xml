@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutbg_write"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:background="@color/layoutbg_write"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VANILLA IS ALL"
+        android:textSize="18sp"
+        android:textColor="@color/txt_black"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/layout_gray"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@color/layoutbg_write"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="我在恋语学习"
+            android:textSize="20sp"
+            android:textColor="@color/txt_black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:background="@color/layoutbg_write"
+        >
+        <TextView
+            android:id="@+id/clock_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="50"
+            android:textColor="@color/txt_black"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="天"
+            android:textSize="18sp"
+            android:textColor="@color/txt_black"
+        />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/homepage_midbackground"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/homepage_booktitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="考研英语词汇"
+            android:textSize="15sp"
+            android:textColor="@color/txt_blue"
+            />
+
+        <TextView
+            android:id="@+id/word_total_countTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressbar"
+            android:layout_marginLeft="315dp"
+            android:text="1505/4800"
+            android:textSize="13sp"
+            android:textColor="@color/text_black"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:progress="32"
+            android:visibility="visible"
+            android:progressDrawable="@drawable/progressbar_style"
+            android:max="100"
+            />
+
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <TableRow
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+
+                android:text="- 今日任务 -"
+                android:textSize="12sp"
+                android:textColor="@color/txt_black"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/newword_count"
+                android:layout_weight="1"
+                android:text="20"
+                android:textSize="35sp"
+                android:textColor="@color/txt_black"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/reviewword_count"
+                android:layout_weight="1"
+                android:text="28"
+                android:textSize="35sp"
+                android:textColor="@color/txt_black"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/notlearningword_count"
+                android:layout_weight="1"
+                android:text="48"
+                android:textSize="35sp"
+                android:textColor="@color/txt_black"
+                android:gravity="center"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:text="新词数"
+                android:textSize="14sp"
+                android:textColor="@color/txt_black"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="复习单词"
+                android:textSize="14sp"
+                android:textColor="@color/txt_black"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="未学单词"
+                android:textSize="14sp"
+                android:textColor="@color/txt_black"
+                android:gravity="center"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/homepage_startlearningBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="开始学习"
+            android:textColor="@color/txt_write"
+            android:background="@drawable/homepagebutton_style"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

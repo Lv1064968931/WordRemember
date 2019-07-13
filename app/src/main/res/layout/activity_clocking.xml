@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/layoutbg_write"
+    tools:context=".Activity.ClockingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Good Job"
+        android:textSize="33sp"
+        android:textColor="@color/txt3_orange"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="非常棒"
+        android:textSize="26sp"
+        android:textColor="@color/txt2_black"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新词    20/20"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="复习    28/28"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                android:layout_marginTop="25dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="坚持学习了48个单词"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                android:layout_marginTop="25dp"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/clocking_imag"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/clockingBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="打卡"
+            android:textColor="@color/txt_write"
+            android:background="@drawable/wordrememberbutton_bluestyle"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>

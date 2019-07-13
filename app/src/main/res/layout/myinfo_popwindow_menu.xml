@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/layoutbg_write"
+    >
+
+   <TextView
+       android:id="@+id/popwindow_account_TV"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="账号管理"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:textSize="17sp"
+       android:textColor="@color/text_black"
+       android:drawableLeft="@mipmap/myinfo_setting_account"
+       />
+
+    <TextView
+        android:id="@+id/popwindow_task_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务设置"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/text_black"
+        android:drawableLeft="@mipmap/myinfo_setting_task"
+        />
+
+    <TextView
+        android:id="@+id/popwindow_about_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关于"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/text_black"
+        android:drawableLeft="@mipmap/myinfo_setting_about"
+        />
+    <TextView
+        android:id="@+id/popwindow_advice_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="意见与反馈"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/text_black"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@mipmap/myinfo_setting_advice"
+        />
+
+</LinearLayout>

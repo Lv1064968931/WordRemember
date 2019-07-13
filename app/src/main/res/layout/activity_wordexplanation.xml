@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.WordexplanationActivity"
+    android:orientation="vertical"
+    android:background="@color/layoutbg_write"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="单词速记"
+            android:textSize="20sp"
+            android:textColor="@color/txt2_black"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日复习"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:id="@+id/today2_reviewTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/28"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日新词"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:id="@+id/today2_newsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/20"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总词数"
+                android:textSize="18sp"
+                android:textColor="@color/txt2_black"
+                />
+
+            <TextView
+                android:id="@+id/today2_allsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/48"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/addtoStrangeword_TV"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="加入生词本"
+            android:textSize="16sp"
+            android:textColor="@color/txt_black"
+            android:drawableLeft="@mipmap/strangeword_add"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="6dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/word2_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="formidable"
+                android:textSize="22sp"
+                android:textColor="@color/txt2_black"
+                />
+            <TextView
+                android:id="@+id/word2alp_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[fəˈmɪdəbl]"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:id="@+id/word2exp_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="adj. 可怕的; 令人敬畏的; 难对付的;"
+                android:textSize="16sp"
+                android:textColor="@color/txt2_black"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/play2_pron"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@mipmap/word_voice"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="55dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="例句"
+                android:textSize="16sp"
+                android:textColor="@color/txt_black"
+                />
+
+            <TextView
+                android:id="@+id/word2exa_sen_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The two players together make a formidable combination"
+                android:textSize="16sp"
+                android:textColor="@color/txt_black"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/word2exa_seninte_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这两个球员在一起构成了一个强大的组合。"
+                android:textSize="16sp"
+                android:textColor="@color/txt_black"
+                android:layout_marginTop="15dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/wordexp_nextstepBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="下一个"
+            android:textColor="@color/txt_write"
+            android:background="@drawable/wordrememberbutton_bluestyle"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

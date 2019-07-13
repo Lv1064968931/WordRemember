@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/layoutbg_write"
+    >
+
+    <ImageView
+        android:id="@+id/draweraccountImag_IV"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/myinfo_personimag"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/draweraccountNumber_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18406587469"
+        android:textColor="@color/txt2_black"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

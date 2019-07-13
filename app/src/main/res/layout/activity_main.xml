@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myViewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <!--fragment与导航栏的分界线-->
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/div_white"
+        />
+
+    <LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txt_homepage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_homepage"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_homepage"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_explore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_explore"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_explore"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_myinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_myinfo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_myinfo"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

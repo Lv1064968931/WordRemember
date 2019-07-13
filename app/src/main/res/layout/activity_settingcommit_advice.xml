@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_white"
+    tools:context=".Activity.SettingcommitAdvice">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="问题描述"
+        android:textSize="16sp"
+        android:textColor="@color/text_black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="8"
+        android:textColorHint="@color/txt1_gray"
+        android:hint="请在此输入您的意见或者反馈"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/txt2_black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/bg2_grayplus"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="联系方式"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的手机号"
+        android:textSize="16sp"
+        android:textColorHint="@color/txt1_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/settingcommitBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="提交"
+        android:background="@drawable/loginregisterbutton_style"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/txt1_write"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

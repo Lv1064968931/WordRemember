@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_topbar">#FCFCFC</color>
+    <color name="bg_gray">#00F1F1F1</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+
+
+    <!--底部导航栏颜色-->
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_blue">#0000FF</color>
+    <color name="text_topbar">#694E42</color>
+    <color name="div_white">#E5E5E5</color>
+
+    <!--我的信息界面颜色-->
+    <color name="text_black">#000000</color>
+    <color name="btnbg_write">#FFFFFF</color>
+    <color name="layout_write">#FFFFFF</color>
+    <color name="layout_gray">#E5E5E5</color>
+
+    <!--首页界面颜色-->
+    <color name="layoutbg_write">#FFFFFF</color>
+    <color name="layoutbg_gray">#E5E5E5</color>
+    <color name="txt_black">#000000</color>
+    <color name="txt_gray">#E5E5E5</color>
+    <color name="txt_blue">#0000FF</color>
+    <color name="txt_write">#FFFFFF</color>
+    <color name="btn_blue">#0000FF</color>
+    <color name="progress_write">#FFFFFF</color>
+
+
+    <!--登陆注册页面颜色-->
+    <color name="txt1_black">#000000</color>
+    <color name="txt1_write">#FFFFFF</color>
+    <color name="txt1_gray">#999999</color>
+    <color name="btn1_blue">#0000FF</color>
+
+    <color name="bg1_black">#000000</color>
+
+    <!--生词本文章界面颜色-->
+    <color name="txt2_black">#000000</color>
+    <color name="txt2_gray">#999999</color>
+    <color name="bg2_gray">#E5E5E5</color>
+    <color name="bg2_write">#FFFFFF</color>
+    <color name="bg2_grayplus">#999999</color>
+    <color name="task_bkblue">#33CCFF </color>
+
+    <!--打卡界面颜色-->
+    <color name="txt3_orange">#FF7F50</color>
+
+</resources>
